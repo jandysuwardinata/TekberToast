@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnhitung"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="64dp"
+        android:background="#2196F3"
+        android:clickable="true"
+        android:text="@string/toast"
+        android:textColor="@color/putih"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/texthasil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="105dp"
+        android:background="@color/kuning"
+        android:gravity="center_vertical"
+        android:text="@string/hasilhitung"
+        android:textAlignment="center"
+        android:textColor="@color/biru"
+        android:textSize="174sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnhitung"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btntoast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:clickable="true"
+        android:text="TOAST"
+        android:textColor="#009688"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/hbd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:textColor="@color/colorPrimary"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="Jandy suwardinata"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texthasil"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
